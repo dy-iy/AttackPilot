@@ -1,0 +1,1911 @@
+{
+  "format_version": 1,
+  "project": "AttackPilot standalone",
+  "files": [
+    {
+      "path": ".github/workflows/checks.yml",
+      "bytes": 1349,
+      "sha256": "ed2f3eca88fa31e5dfd5511f34e7e558fdc68835166b2164fba2f2bdfa367692"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 558,
+      "sha256": "f4e8cb2f6496050f8ef1db72fd754b6f6bfd9ef6183b78d44a0ed9a8a0f154cd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8388,
+      "sha256": "06f91ebb90496997b5e0bb1cf605fdde902aa6d2fd3fe7029bbdd9a3ea2b96f8"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1919,
+      "sha256": "b232ee81acaf50d4cd73b43750c6323208ed290cbcdf059e5aa6b12077e4f025"
+    },
+    {
+      "path": "backend/.dockerignore",
+      "bytes": 81,
+      "sha256": "cfa50cd252f861f055ef87b66547b1836d04940039011bbbc31d3a10ed657ad8"
+    },
+    {
+      "path": "backend/.env.example",
+      "bytes": 1879,
+      "sha256": "30409cfb78c85d0d1741882f46e4dae5b074a0c85e3c1b41e514913237221a1e"
+    },
+    {
+      "path": "backend/Dockerfile",
+      "bytes": 759,
+      "sha256": "e00e7ffb989aa308008e65d96dcd10578974efa6165dc33ccc7da06ba032a981"
+    },
+    {
+      "path": "backend/app/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/api/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/api/auth.py",
+      "bytes": 7964,
+      "sha256": "b9288c90f809ca8680bfbb382258a9a5eceb78af5f46404ef0fd8fe2b6407195"
+    },
+    {
+      "path": "backend/app/attackpilot/.env.example",
+      "bytes": 1113,
+      "sha256": "0daf38ec786670b51aaf39710fd8cb16e2b1b443ad01a03028180291005021d0"
+    },
+    {
+      "path": "backend/app/attackpilot/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/attackpilot/agents/AgentBase.py",
+      "bytes": 11241,
+      "sha256": "42f74b6f75c9131ee9f109bb1ecf741bce6ea2872dfe3ecde13978106c484a64"
+    },
+    {
+      "path": "backend/app/attackpilot/agents/FilterAgent.py",
+      "bytes": 4627,
+      "sha256": "27fcc70cae2df1f6bc5b8bcc359c7c03d3fb5a3e31880d4a7f5cbbc0f9216762"
+    },
+    {
+      "path": "backend/app/attackpilot/agents/FixAgent.py",
+      "bytes": 68582,
+      "sha256": "d1ec6d5a647bcbf4adaa2e6bd9309eb1ccf135e6d7bc9ee7dd2936618f8a4eee"
+    },
+    {
+      "path": "backend/app/attackpilot/agents/GlobalMemoryAgent.py",
+      "bytes": 14998,
+      "sha256": "f457f37c13c754f6262044985953b42b2bcaa69439ddf739f12a15234242ad81"
+    },
+    {
+      "path": "backend/app/attackpilot/agents/JudgeAgent.py",
+      "bytes": 5302,
+      "sha256": "da89787525b002d5849e551a7688222974562af718ce2417992b850915e854d0"
+    },
+    {
+      "path": "backend/app/attackpilot/agents/TaskAgent.py",
+      "bytes": 2508,
+      "sha256": "36def34e859c01992533a28803afd7050839fd29a579266ebfcd29246eaecc5c"
+    },
+    {
+      "path": "backend/app/attackpilot/agents/TraceAgent.py",
+      "bytes": 34501,
+      "sha256": "df7875455a26a26b80acca275f61bb644d5ce97b6b183cfa2691c9770aa33e9b"
+    },
+    {
+      "path": "backend/app/attackpilot/agents/TxDetailAgent.py",
+      "bytes": 7385,
+      "sha256": "fcf86b5dfd7878809fbcab71af52b33460d79493fc3f5a9166450c3ab556cbe8"
+    },
+    {
+      "path": "backend/app/attackpilot/agents/TxFaultAgent.py",
+      "bytes": 3059,
+      "sha256": "682bb72b7657efce32b570186229e7fe3656f9325cb5eae05bd3be2568ec401c"
+    },
+    {
+      "path": "backend/app/attackpilot/agents/TxRoleAgent.py",
+      "bytes": 9122,
+      "sha256": "01e24cf38d450b7d810c1c6708ec5be7cf91f47d270e0bb76036c276b54f8a25"
+    },
+    {
+      "path": "backend/app/attackpilot/agents/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/attackpilot/api.py",
+      "bytes": 18034,
+      "sha256": "4517c4f997fba7a9cc8afff40dafd4ca50c8d6f6253338daa5ebd9366f872ad5"
+    },
+    {
+      "path": "backend/app/attackpilot/daos/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "backend/app/attackpilot/daos/contract.py",
+      "bytes": 34162,
+      "sha256": "27903b51fbabd07313c88277d052f14b9ac6697db03cc983a184e2a351d6c48e"
+    },
+    {
+      "path": "backend/app/attackpilot/daos/property.py",
+      "bytes": 5627,
+      "sha256": "f08baeb84bac22f74d7a0c2b37a2e95a54ebb671f377d76d8d4197d7cd7b5175"
+    },
+    {
+      "path": "backend/app/attackpilot/daos/tenderly.py",
+      "bytes": 34755,
+      "sha256": "e27d460b87f91cbdcdda542d502d13505c70a251f2913cc8e17733830686a840"
+    },
+    {
+      "path": "backend/app/attackpilot/daos/trace.py",
+      "bytes": 4732,
+      "sha256": "d22bd16d679fccddcb6931d45e7c24e064ef0e5907fbcb0922b06d2c76aebeed"
+    },
+    {
+      "path": "backend/app/attackpilot/daos/tx.py",
+      "bytes": 1088,
+      "sha256": "e2507e14e34b630f51420f166dec295804057eb7182af144ca1f576a1406cdd6"
+    },
+    {
+      "path": "backend/app/attackpilot/data/demo-seed.json",
+      "bytes": 1132649,
+      "sha256": "674f84fb9731f96ecfd488e64f3f4d208cdd53ff0d5a3f93d5685acde5b4da59"
+    },
+    {
+      "path": "backend/app/attackpilot/data/knowledge/case_index.generated.json",
+      "bytes": 142838,
+      "sha256": "a2316dd96df531ab3b226281d7bed975df99596f0a9a6e71b239e02040a3f31f"
+    },
+    {
+      "path": "backend/app/attackpilot/data/knowledge/cases.json",
+      "bytes": 13173,
+      "sha256": "7d3b592ec82c53fb18666c3b2ae987983c607c4d0f3ffa080c0666473deaf73b"
+    },
+    {
+      "path": "backend/app/attackpilot/data/knowledge/generated_reports.json",
+      "bytes": 14868,
+      "sha256": "f6c90fb9e8be1126524b96cefe928da40b78cc35c4f97193076299e3144dd6dc"
+    },
+    {
+      "path": "backend/app/attackpilot/data/knowledge/vulnerability_types.json",
+      "bytes": 18751,
+      "sha256": "60a245aaf3805f381d296b898463e7d469da9fa7b97b98171ee5661eed974aa5"
+    },
+    {
+      "path": "backend/app/attackpilot/data/report-translations.zh-CN.json",
+      "bytes": 76599,
+      "sha256": "2019e25f6da0581c32e9ed0c47f5bae281d27a217e3700df2897aa359e84043a"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/processed/ADC.json",
+      "bytes": 122892,
+      "sha256": "644857633f75c2cfd15a6f1738443c8f1b828fbad7561231a3283d8fc3dbfa86"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/processed/SushiSwap.json",
+      "bytes": 170111,
+      "sha256": "1a0c9bab5d220a71f8d5ce8215de5c00b09bdb7b0c8c3debd6b1fe73b8e4a735"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/ADC.json",
+      "bytes": 1246,
+      "sha256": "3ba982a9337d54c1fdd4f11019cc728a3e5f71a827a424974a6a8fd8b7b981d4"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Alchemix.json",
+      "bytes": 1877,
+      "sha256": "213594f5790bb3fc2b68c04374de2ab98a9937c95189616044a0a1d19fc71e8e"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/ApeCoin (APE).json",
+      "bytes": 1250,
+      "sha256": "f2629ea84b02b06e4af42e898b49c12f17f6575b74c1ae3b1686c68c5f9db1ab"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Astrid Finance.json",
+      "bytes": 1044,
+      "sha256": "85c28f9a275da2e61202b965ae3f4e93b9514fae85d260c245d24c75361d1705"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Audius.json",
+      "bytes": 1635,
+      "sha256": "96ee3545884914f1f360f42bbdd9fc6267de41afbdd2deaa9906e6a376c00a06"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/AzukiDAO.json",
+      "bytes": 1954,
+      "sha256": "df69d5237397fdbd4f020bcff6312b335b134e2435a81740a7266d2d98a2cd49"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/BBT.json",
+      "bytes": 1423,
+      "sha256": "7845fa160a076dd4079b58bd96bded9a3ecbda85c6dfd8a45fc2b61e87a40892"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/BEARNDAO.json",
+      "bytes": 1457,
+      "sha256": "a0cc4016a9ecfdbec5818093351c9213161abe5317e97c79a03c0e93bf64976d"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/BEGO.json",
+      "bytes": 1398,
+      "sha256": "0feb054b9ea0969e504e4f342236382cf37643b787ed5d60eaed58d1857907a4"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/BNO.json",
+      "bytes": 916,
+      "sha256": "c31d00d027f310996cdb0c0d193a682a237fbd2cafe17086cdd621b35aea1227"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/BRA.json",
+      "bytes": 1246,
+      "sha256": "3db6f042e90a61193aaa50e86e24f020e5cb18066d3279b6cedf940e41307176"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/BTC20.json",
+      "bytes": 1308,
+      "sha256": "cbc5803e1332ed0cafb41a29e34f87051a023434f02717e4db591699f6375594"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/BUNN.json",
+      "bytes": 1256,
+      "sha256": "e00a96ef7e3fcafa8e66978a22bc55f808a841f63024220c98b419e92449f829"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Balancer.json",
+      "bytes": 1676,
+      "sha256": "4b77195c924bbade47cab44c0d98beaf680e806e91b5906f8adf5b4413c648f7"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/BarleyFinance.json",
+      "bytes": 1476,
+      "sha256": "2a29e5ace643d90910aef8a440b9f70c97391ca59309ab4589d4e59e2ab83037"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Beanstalk.json",
+      "bytes": 2636,
+      "sha256": "9a3f98275a7fc43688dba8c3b4db7a1e4a41a3d5b08bb026f36a989617660fa0"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Bearn.json",
+      "bytes": 1669,
+      "sha256": "ee6334589c49967c49d7ca2a245dda4be418c386f3d53bb5ac5d76db1cda6544"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Bedrock_DeFi.json",
+      "bytes": 1634,
+      "sha256": "22617e03bed224bf04587159822c3364559031b9406a3c48052f4e938edebb79"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Bitpaidio.json",
+      "bytes": 1316,
+      "sha256": "4b13999273d23a24f36c95d4817e65c99d1d762c3410b860e7ca169af12f9e1e"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/BrahTOPG.json",
+      "bytes": 1421,
+      "sha256": "1adfd7c062356344e7882625e64e872dbf8086e349341adf303671209c94ec1d"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Burner.json",
+      "bytes": 1602,
+      "sha256": "c91773b07e7f864faacb8efce615580434a0d07aa3a9aef048be6bcba0d74b07"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Burntbubba.json",
+      "bytes": 736,
+      "sha256": "9260026fd600364d820d1e38653a1b908c900e45766bb732c370db30fb7369cd"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Bybit.json",
+      "bytes": 3952,
+      "sha256": "71e3829869e95f043154f334afed7dfc90ab38461045b19bf4495384c326b2c7"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/ChaingeFinance.json",
+      "bytes": 1588,
+      "sha256": "e7dabba5e6d73ca4f577375d80e0293ad55ddaa7fde6647a127bfce12ccb0704"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/ChannelsFinance.json",
+      "bytes": 608,
+      "sha256": "96c544e49d5de38fb689c11c4283ee268d9427fb66cb63cb3610fc4a392d7ac2"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Circle.json",
+      "bytes": 684,
+      "sha256": "78913ca1014736f5981e9746487630f75df86f09191257ea4b20772f711f1143"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Civfund.json",
+      "bytes": 1601,
+      "sha256": "c497a9bca15613227d8a27935dfd4b9e0f332368f6a6afcaa81d848e43cd32f0"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/CompoundUni.json",
+      "bytes": 777,
+      "sha256": "f3ba6654e8abf90a94382b30866f3e59f64f64de91e6c56ba63a64f160504494"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Conic Finance 02.json",
+      "bytes": 1777,
+      "sha256": "bc8e9f6bbce1bd9108c2c6f9743aa6a83aca0aceff35ee884b1be544140c52e5"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Cover.json",
+      "bytes": 2363,
+      "sha256": "d743250c337ef23b68a60fcb2785000934dde6ee9e33a57582f87b329ce94479"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/CowSwap.json",
+      "bytes": 1513,
+      "sha256": "b245589f16145e9be7a673f2f646b58d2ac4cc535545f372aa0255192e24b438"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/CreamFinance.json",
+      "bytes": 2374,
+      "sha256": "88c55dc09af9c86e7c7111929deab8a3aede24a8220e1681d8d711486da73122"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/CurveBurner.json",
+      "bytes": 1666,
+      "sha256": "33f3739e7421993efba7b8b16bee7318d860c7904cb4de95429190dfaf64334d"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/DAO_SoulMate.json",
+      "bytes": 1092,
+      "sha256": "8c16226de44191eca8dbdc530f75ab4cf43261720ad50fdd4a7dea8ab239e108"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/DAppSocial.json",
+      "bytes": 2032,
+      "sha256": "27cf609f9635e3b476cad331b801f6bb9ba84765a9627d866184d618e9715824"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/DEPUSDT.json",
+      "bytes": 1257,
+      "sha256": "f07a3d3cc77f6baba2025fbf62190d3d7821f0cc54ebf57126183dadb06b1d7a"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/DEPUSDT_LEVUSDC.json",
+      "bytes": 1563,
+      "sha256": "ccb5ee700fced7e717b6f233756eca235bb40f18b88528c46bc304f8601121ac"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/DFXFinance.json",
+      "bytes": 2012,
+      "sha256": "0257aec27c5f63fca02b3105aaf914af400362a11bbc095f99ed6a82589ada86"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/DODO.json",
+      "bytes": 2011,
+      "sha256": "017a43285113e750a68b601f916cdd27184d4c65a0e8b5570a5b7ee24e7e432b"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Dexible.json",
+      "bytes": 2061,
+      "sha256": "e5f0075a58103349e7cc21e898edda1e8d7af884d9b969c49aeba373f3eb3aee"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/EFLeverVault.json",
+      "bytes": 1705,
+      "sha256": "72e9f76cd8c0d5b0b291b0b86b2edcb44a8b4a7ae367db9c9cb67b62ebf08f9f"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/EFVault.json",
+      "bytes": 1889,
+      "sha256": "b27e5009f36e2e5434fa4613843136a64064dc00ff51b8e26088a0978c6eb6ab"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/EHIVE.json",
+      "bytes": 1157,
+      "sha256": "aad2708cd6d80ff6e8072b10b4f395ed442cf91c00fa9ad3245789ed771b6e6f"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/EarningFram.json",
+      "bytes": 1728,
+      "sha256": "ef4b3f2e642fbb3f9690bff43e1606dec539a913c3db30b5b21a138cf3db9c0f"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/ElasticSwap.json",
+      "bytes": 1869,
+      "sha256": "049efb5dbbdbc5526f9b8ea64b0c08379a2f98c1d1be3f828ed109fc79f74aa5"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/ElevenFinance.json",
+      "bytes": 1172,
+      "sha256": "58527dd49d40329be947d0dd4f673051b459dd842476597c2037acd220c70268"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Euler Finance.json",
+      "bytes": 1472,
+      "sha256": "09b071e57e15357979f7777268456b398dcb7d94d9a7f667b582a911f4c76664"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/FDP.json",
+      "bytes": 1353,
+      "sha256": "3ddf99592232263dffdfadd436af51c57e890d3afc38abdbdfc1ff243739fdd0"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/FEGtoken.json",
+      "bytes": 1473,
+      "sha256": "21480b1642b61fd021a84a1155d4e128bddb077a4baa4de28e13c54b34048249"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/FFIST.json",
+      "bytes": 1556,
+      "sha256": "484f301345ff23c3abab34bc6d85968b00741a7572e81f3adf63614a02698a32"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/ForceDAO.json",
+      "bytes": 1935,
+      "sha256": "f74bb993d919167d0ac7992d9e2a23b95a71097295b2d86b6b777881cd7ddc87"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/FormationFi.json",
+      "bytes": 2530,
+      "sha256": "af0c58bd3411497c1560ca9232e5e79882f26dd00ec590698891b89414b686e9"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/FortressProtocol.json",
+      "bytes": 1416,
+      "sha256": "7a86e3c8f7d7994db0dc3745356a98df6fb4c2a89a0b59195897c9b54068c898"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/GFOX.json",
+      "bytes": 1497,
+      "sha256": "f3282427da75f4d26aeeacdc2ddd6aa0d39d34bca512df6743e9140ac596ab3f"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Game.json",
+      "bytes": 1258,
+      "sha256": "9247b8c6cdff789f8b51095303c32af439abccedd023bd0f7f32f62aec915824"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/GoodCompound.json",
+      "bytes": 600,
+      "sha256": "cfd19a92a990df8fa29e6acd95319a212cd74d9cb71ba98cf4971c0e7f35c483"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/HeavensGate.json",
+      "bytes": 1394,
+      "sha256": "bb12a4c7b38898f3a6437ea45ecd47bb261873d2e52e43c0c792f525bdd53449"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/HedgeyFinance.json",
+      "bytes": 1714,
+      "sha256": "6ef39e563eb2f8fc4e671863ac313291d6082fc17bc5eff34afb642fd6c01814"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Hegic.json",
+      "bytes": 907,
+      "sha256": "c40d812bfb1bddd3a152430308916be2aaa332c79ecc18dbd1986039b8cd076b"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/HopeLend.json",
+      "bytes": 1387,
+      "sha256": "30d32511c7dec7ccd77ab1a26664cee34fab232eaff7bffff66e20af1d47a263"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/HoppyFrogERC.json",
+      "bytes": 1718,
+      "sha256": "40973658bcca74c2a086d53e9e9473531dbe1923bd1dd17ac0b21e4c0cb4b613"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/IndexedFinance.json",
+      "bytes": 1866,
+      "sha256": "36d7a1c8f3dbd27e29fb8eea71c38688d49302e7a883c1efa599d0ed75a54800"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/InverseFinance.json",
+      "bytes": 1765,
+      "sha256": "100f897edc9663ec7216624fe52ee475832aa40ef23067c475af55926d992c1f"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/JAY.json",
+      "bytes": 1848,
+      "sha256": "f938de3d7fcfb70385c9b43341f0850730ebce300e6ac34b0cfc8712b49215c7"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/JokInTheBox.json",
+      "bytes": 1465,
+      "sha256": "80f4898e2e8890435375c0c8160438e95a072afe22b3980fe2766c33de80a957"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Juice.json",
+      "bytes": 1670,
+      "sha256": "f3ffe505710f9d3e71fbb04e92c2f5881c38e23072f0d401e3ca0d7d0f14fa14"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Kashi.json",
+      "bytes": 2104,
+      "sha256": "6d2d99c962925a9096149eedb04b1a3d0474c195f6406fb98b9e6c4c1a03066a"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/KyberSwap.json",
+      "bytes": 1770,
+      "sha256": "1a29b08747719aca0c9e4e24debbb123beab8a8bed092b151333c255a11d5397"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/LPMine.json",
+      "bytes": 1925,
+      "sha256": "16bf26b40f71ea80ef629b6390d34037128743b5062e1bda874066c9aee7cbea"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/LiFi.json",
+      "bytes": 2804,
+      "sha256": "602b77fef2a6909957cbd3175404b987ad0af2a8c12e245d71a7f68ece731110"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/LibertiVault.json",
+      "bytes": 2012,
+      "sha256": "b37a098a1d4a0da506a6cbaa10abe72a5cbfaa59a3fd5c619b2aeffa83e32d54"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Local Trade LCT.json",
+      "bytes": 927,
+      "sha256": "ef2a094e8468b5a0ae46b5eb262982ba8468153bd993064799ec3c32c6109548"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/MCC.json",
+      "bytes": 935,
+      "sha256": "1c476634e052a2df55ef276540d57c928fab4040c47823e212ed6eb471a2dd42"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/MEVBOTa47b.json",
+      "bytes": 1116,
+      "sha256": "80a1b2d4e5933666e25b4e45110a5f8a6ec55e5e93f2de84763cf404161c23b5"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/MIMSpell.json",
+      "bytes": 2046,
+      "sha256": "9df6ad17dd5cf7b7a47a40dc31d85597d064f8d3a1b31ad540f236a3d30bf03b"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/MaestroRouter2.json",
+      "bytes": 1873,
+      "sha256": "de381523615fd63f38c97f3a4b2059f110171005d4fce0863a3b89813bb7551c"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/MahaLend.json",
+      "bytes": 1387,
+      "sha256": "4a7bdbf5f6042b687c8653cd02824818a14ecbb6d30f7fd070b1a585958253dd"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Melo.json",
+      "bytes": 1275,
+      "sha256": "6a2174afda74e58d7d9f11b10b8ad9e3e8d11bf1faec4730cd0c4bc0171419b5"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/MerlinLab.json",
+      "bytes": 3657,
+      "sha256": "64f29af175805036bd49887e9609b5547c80aea6a8df811ba0b580cf0d199533"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/MetaLend.json",
+      "bytes": 747,
+      "sha256": "4b7cc51a3781f9b0436a45f7577ca1119b3c57204a061418a87489195a51e20b"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/MorphoBlue.json",
+      "bytes": 1484,
+      "sha256": "70873d06d1ae03c184fa80682c1bec64436f67f7f017d43156554864fa4f5a4d"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Mosca.json",
+      "bytes": 1650,
+      "sha256": "e4e6c19a4eef29737ecf80cbf923b6221a9b5b63094229f12b8ecda6ba4f98a1"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/NBANFT.json",
+      "bytes": 2086,
+      "sha256": "7fdb3f5148b5bda3b102e6a859ef7eb55df653441d40935405d8770035a90938"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/NUM.json",
+      "bytes": 1963,
+      "sha256": "a10ab01a1a933676605526dc9611dfbd756d3cf4e31b5f1b255d49c35c989568"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Nmbplatform.json",
+      "bytes": 1712,
+      "sha256": "eb9dee5cf46920a9d8481ce488f4a3134774ee378da1c3036ea02764d0132ce2"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/OMPx Contract.json",
+      "bytes": 1627,
+      "sha256": "8fd9452d576548e11c50950ef6960eb634424f245fdb4ade7b0c5b84b0a81e02"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/OlympusDAO.json",
+      "bytes": 1906,
+      "sha256": "d3f08e6fa6b8718d576640a95e9fa09f654aec100bdf51280e347fd6c741ca38"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/OmniEstate.json",
+      "bytes": 1852,
+      "sha256": "7e37358092b5a672b7e58740679c3fc7a980daeffe9001f6c67088825deb48e2"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/OnyxProtocol.json",
+      "bytes": 1850,
+      "sha256": "2843d120a9a30df69a371e3f7abd5006d9b960d44c1886bb39bacc7017fa6500"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Orion Protocol.json",
+      "bytes": 1628,
+      "sha256": "2b5ab598913c268c38b9630438ac23110dde3ce462f58ec09f6e826928535958"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/PHIL.json",
+      "bytes": 577,
+      "sha256": "dbfd2d7090a51dac8fb4869a14de88b6caf84213998bf1e4f2dd4f7ebe86d44b"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/PancakeHunny.json",
+      "bytes": 2042,
+      "sha256": "94ed25b1cd0a5e16313ca0284636508e60e7451a94b79072ac4a1059a0c92d9d"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Pandora.json",
+      "bytes": 1569,
+      "sha256": "87cddd5d7be8619a2f5b2e846891604819bfd8f3ed340fa3ff0d26d7cd5fe3c3"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Paraswap.json",
+      "bytes": 1380,
+      "sha256": "61f9fb19c2e488cec467996d031953afab5d60974bfec6c485b3128a3a69ed00"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/ParticleTrade.json",
+      "bytes": 987,
+      "sha256": "d441191d4a383291076847982dfb0a0e0318d76ab21556391a2e946c5acee5cf"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/PawnFi.json",
+      "bytes": 1751,
+      "sha256": "57bc3050fc5971ab1b615dc3018212e1bc77f716d67be249fccb2b4d695e644c"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/PeapodsFinance.json",
+      "bytes": 854,
+      "sha256": "74e279a89f5d7a6e5a5c51a3733679704ceb1d6337e322c9bd204f057f08f3c0"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Poolz.json",
+      "bytes": 726,
+      "sha256": "d52e6431b4db939d30639a46a6b65b2c42c26ddbe46f78e25a5322ddc37970f0"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/PopsicleFinance.json",
+      "bytes": 1231,
+      "sha256": "d25c4dfdbc008172ee6c1804c1c0f40408957700c6fdf90dde112c87b111ce11"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/PunkProtocol.json",
+      "bytes": 1228,
+      "sha256": "fbae49fd2996219c9c7dd36c3a7e052a34c92931376fcf1f631b5950fd0c9c0c"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/QubitFinance.json",
+      "bytes": 868,
+      "sha256": "90426203797df280dc4f36b636426b5b3051ef2e4fdf3dc2095391e68a17f0a1"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Raft_fi.json",
+      "bytes": 1087,
+      "sha256": "1a2d0f698d503af3479254ca01bb0da06eaa5b08afd5356d7b7ac8a326a1ea28"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/RevertFinance.json",
+      "bytes": 1028,
+      "sha256": "7b32ae8b44b8214aa0199a0eaecab7b84dea05075ff3b75f12a5cc69c139541d"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/RevestFinance.json",
+      "bytes": 1266,
+      "sha256": "1c239c63f3c84dc6c2189a4c0d972ea0c4a812030a60ac4beea3c4d73644c660"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/RikkeiFinance.json",
+      "bytes": 970,
+      "sha256": "63063b2986cc1e6002382501c24da20256f061cca8a980519947ed1e977f52ab"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/SHOCO.json",
+      "bytes": 1207,
+      "sha256": "53958c13bc529832283618b7f15164731c89a847f03f2613aa10ada78fc797f5"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/SaddleFinance.json",
+      "bytes": 1211,
+      "sha256": "18aa5edd4012340030fb23b15394e2a3e1d9594262271f6d5d4129a1a4dc9c6b"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/SafeMoon.json",
+      "bytes": 869,
+      "sha256": "2b9420ff476e32d56642c831bc3a5614bc2dea5e7b2adfdfc181e0e4dc0c3491"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/SashimiSwap.json",
+      "bytes": 1206,
+      "sha256": "8d1c234dacfd34a477d6f41c953d1af3172cb7d027b92cf6fe3ccd650acc9c1c"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Seneca.json",
+      "bytes": 1419,
+      "sha256": "d34c5f8f71166bd87dc5e591ce7ef88eeff8ecb4900b244ec18d989998c3dd15"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Sheep.json",
+      "bytes": 1120,
+      "sha256": "2149a6af9e48797de129664d14f9756d1e4797f9ff98cac53956b605ce446cff"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Soda.json",
+      "bytes": 1545,
+      "sha256": "37c8095dae4efe853195e0aa6f36f2536cacdf26f81652851fc25927d46e1972"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/SorStaking.json",
+      "bytes": 1072,
+      "sha256": "59d9c4578779f234f28ac3f8b77e8c8a50500f402daf315e438cc768b316e0e0"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/SpaceGodzilla.json",
+      "bytes": 1134,
+      "sha256": "6d0789f7a2b4834d36003ec1adb70ad54f20d6dd4b84c911d6fa899249ac4f74"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Spectra_finance.json",
+      "bytes": 1357,
+      "sha256": "9a8efd9b40c3b3eba8024168de020fc852b97120e309a72645dda9798e810195"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/SushiSwap.json",
+      "bytes": 2650,
+      "sha256": "4a1d37d9817f9323e392308d57203c51bfb4d5025b2f28d3f2c5c707798b05d3"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/SwarmMarkets.json",
+      "bytes": 912,
+      "sha256": "47dee6a58853e9930db35ffeea13c596a97ed31bde199d969a489f0d0e657225"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/TINU.json",
+      "bytes": 1498,
+      "sha256": "a228782e6afc0fd40974740513bb155c636f2081c531b685e4d5cd849501fcff"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Templedao.json",
+      "bytes": 1273,
+      "sha256": "5802e15e00ba92c215a0a2ab8d207d8e51751aa2fe5d93febd7744e00f4a0a68"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/TheNFTV2.json",
+      "bytes": 1578,
+      "sha256": "94ca479da4ee6780074f0f2e792f6410d4d7a951277a30ef87b1139f3277f2d2"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Thena.json",
+      "bytes": 566,
+      "sha256": "993fbd275279c604aa2e777a4d9ee2f66fac9a90ed2bce84700936f22586bea7"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/TrustPad.json",
+      "bytes": 962,
+      "sha256": "3920e7d2f80c0b1a0d3b231b4ea538aa23fea5894718d502e27af6887f41c3e3"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/UFDao.json",
+      "bytes": 809,
+      "sha256": "99307585307c34a6d96ea971624c46c0ca41006003f80a20a23250fc72e1dad7"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/USDTStakingContract28.json",
+      "bytes": 1038,
+      "sha256": "4540e532c0601ff6497fc34e3bf7b0d10b22cad7633f9db6cd76b06c4f3a9525"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Uerii Token.json",
+      "bytes": 955,
+      "sha256": "fd0415b331c84f5cd2d979a7d345422fe870b8c798b8f1a5f99d779451959d8e"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/UmbrellaNetwork.json",
+      "bytes": 1231,
+      "sha256": "f8fa10a5277f0cc38a97446b3d6e4214c0f2cfcdea3e55fca2367c9a6cbe8b8f"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/UniBotRouter.json",
+      "bytes": 1123,
+      "sha256": "27fe4d74c3088807b6e67076f4869085393ab473eeb4941c6b792e2e1592f557"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/UnizenIO.json",
+      "bytes": 857,
+      "sha256": "674b4ea3ff8baaa9419c9a7cff20d45d3d90d6665590cc62f7c67ee9a3a54918"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/UnverifiedContr_0x00C409.json",
+      "bytes": 1595,
+      "sha256": "279f999e90e1d992b0f0cf142dd18ccb33dddaab586c392efd91d25b517f8123"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/UnverifiedContr_0x452E25.json",
+      "bytes": 1065,
+      "sha256": "d92b9122430d4a8dcf68c7a38353de4a3053e31284762ff2e70954a213085aeb"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/UraniumFinance.json",
+      "bytes": 989,
+      "sha256": "b6679a2a6a32d58a4133d46d91ec207d25f6adeaa804040988859645dae19805"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Uwerx.json",
+      "bytes": 1211,
+      "sha256": "0c3799bda07e4606cfa94e05c1bdef56fd512a7f384d3a9fb5bd1fdcebc2e555"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/VINU.json",
+      "bytes": 680,
+      "sha256": "f99bebacfdab816caadba6a914d87cf4ec3f66e94b5f6c79a9f98186edbac28c"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/VisorFinance.json",
+      "bytes": 1223,
+      "sha256": "1f209b9acb381409e32c16e52c9257ed100e7c62b79cca638f34dc50098b9917"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/WIFCOIN_ETH.json",
+      "bytes": 1345,
+      "sha256": "92eff68de15c66634a999c0992dd7228ad72351db37af35155a3c890f18b2964"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/WaultFinance.json",
+      "bytes": 1308,
+      "sha256": "0f12e2b3cf3ebd4e1c42a3fd9a5b830aeb42f1f807bcbae456998277e1bb7c3b"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/WildCredit.json",
+      "bytes": 839,
+      "sha256": "6dffc0e41294741a63f1207657ccfdcb541c8cb0114c7cb4fc6f9b079225626c"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/WiseLending.json",
+      "bytes": 1241,
+      "sha256": "a9cd6245bed82b968233201a6cbf201a81fa092f4c60ef81c3067d937dc96e4b"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/XCarnival.json",
+      "bytes": 1848,
+      "sha256": "22196bf2583d284f0e5d539a254442fd77f22c2c27eaa2fe7d1aed066a8d402b"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/XSTABLE Protocol.json",
+      "bytes": 1147,
+      "sha256": "289b2fdb02f6b65c0d4cd9b038c81ca804c2a79164d90a5721ad7b01873cce85"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Xave Finance.json",
+      "bytes": 1305,
+      "sha256": "ca7d13799865c4e92bd067d5e1960b41f513aa1d0ae33f8be8df01d91a61d02c"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Yearn.json",
+      "bytes": 1163,
+      "sha256": "da4112d23f3475bfcbfe8c1f1ae90ad4cbed9147061d1067e27e5162d1ebb812"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Zenterest.json",
+      "bytes": 1354,
+      "sha256": "951dd43977d7307ae6eb5f4c8d0311f65fe2d0ab76d25bae5ae68e05cde20af7"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/Zoomer.json",
+      "bytes": 720,
+      "sha256": "3ab28a9551fa4c6be61df01725e7eaae581e9f550db812406ffc6b8786477474"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/ZunamiProtocol.json",
+      "bytes": 1479,
+      "sha256": "12138d7dd0c215dcf5997443f83294065a97569b80e86ab12d448166970bc55a"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/bZx(0215).json",
+      "bytes": 1787,
+      "sha256": "a777d3262c51aebae03c9aeacd5da22dfedd551eddab384b055bd2e7bb6627a7"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/bZx(0913).json",
+      "bytes": 2379,
+      "sha256": "e5e1d434fd8af4deb6dd17c6b8112a28c394d28e3628015a763edf792f8bd4a2"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/bZxProtocol.json",
+      "bytes": 1695,
+      "sha256": "1e597e287eeca8b67b26aea33b64a3d8c40233ccd81ff5b1152d0203b47d41ed"
+    },
+    {
+      "path": "backend/app/attackpilot/dataset/raw/landNFT.json",
+      "bytes": 1738,
+      "sha256": "ae12af6eff12a80d93f9c65869218757abc5be650d89224ab7c6dce9f2c3378f"
+    },
+    {
+      "path": "backend/app/attackpilot/demo_catalog.py",
+      "bytes": 272,
+      "sha256": "dede774df2d7e7f4cb81181901d115a2cf32f76fb4b71855be71ec2cde9b0ac1"
+    },
+    {
+      "path": "backend/app/attackpilot/downloaders/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/attackpilot/downloaders/contract.py",
+      "bytes": 7419,
+      "sha256": "31b1a8d85428f2ee25d86cc70d1c931ca2dfbf195c72778a0da4f60234304ade"
+    },
+    {
+      "path": "backend/app/attackpilot/downloaders/defs.py",
+      "bytes": 4721,
+      "sha256": "4df556bb7b245bbceea1fa5c51b48233192037a7b2c13ad9914b56ef1f76e7ff"
+    },
+    {
+      "path": "backend/app/attackpilot/downloaders/property.py",
+      "bytes": 6495,
+      "sha256": "9ea4106d3bb9cf1b08f356326428334ad160a98a65d2a1b3a0ca00156aa6e2b8"
+    },
+    {
+      "path": "backend/app/attackpilot/downloaders/trace.py",
+      "bytes": 17512,
+      "sha256": "3241dcccfd3ecd1c92e50eaaa93abf146136c7d0c8590e444db110c1b8dc4a12"
+    },
+    {
+      "path": "backend/app/attackpilot/downloaders/trans.py",
+      "bytes": 7875,
+      "sha256": "ff5ad47e9ab7e85f937189cf104859e8fb8fc2c7b8079e8e2c3e13e1bd6e620a"
+    },
+    {
+      "path": "backend/app/attackpilot/entities/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/attackpilot/entities/contract.py",
+      "bytes": 4154,
+      "sha256": "60e747a2f7ac55401830bf58b8f972985043c9de76b8277973d0eba58656bc15"
+    },
+    {
+      "path": "backend/app/attackpilot/entities/trace.py",
+      "bytes": 12816,
+      "sha256": "6b7b0533865f673d903547263f34cd0d435c2948e53558f7549e7132c81039df"
+    },
+    {
+      "path": "backend/app/attackpilot/entities/tx.py",
+      "bytes": 10951,
+      "sha256": "f20b540120436fbcdab68aa23f49db29fb100f843dd9cad2d99cd386bbc9b142"
+    },
+    {
+      "path": "backend/app/attackpilot/errors.py",
+      "bytes": 13340,
+      "sha256": "5625b2687ec767748b8de57bfd26c54f732f3318cac3b63f18036039a435abcd"
+    },
+    {
+      "path": "backend/app/attackpilot/knowledge.py",
+      "bytes": 2133,
+      "sha256": "25a4d4135bbadbfb242d80dbf174d9b5cd7d360792153ffa606e0a99f6bd2912"
+    },
+    {
+      "path": "backend/app/attackpilot/language.py",
+      "bytes": 1200,
+      "sha256": "a8188f3a281175d05df71a1731838ab787370e29bdb4a3704cd4e79daac277ea"
+    },
+    {
+      "path": "backend/app/attackpilot/lifecycle.py",
+      "bytes": 449,
+      "sha256": "10287a897dedc57f6f85fd91fdbad7367ebf06e7487c9e8a82b0a55d7f47027b"
+    },
+    {
+      "path": "backend/app/attackpilot/manager.py",
+      "bytes": 8315,
+      "sha256": "328f26d734fe5c989b44eb4314931662db0e69eb430c52efa9472f921f390e2e"
+    },
+    {
+      "path": "backend/app/attackpilot/mcp_tools/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/attackpilot/mcp_tools/mcp_client.py",
+      "bytes": 3508,
+      "sha256": "0c822f33a42eb02585583e638569bce7a60188c8dac21cc73a76819d4bac5336"
+    },
+    {
+      "path": "backend/app/attackpilot/mcp_tools/mcp_server.py",
+      "bytes": 48287,
+      "sha256": "32a0f066852d18245f15134f24d85c701232509dfc66099fcceea5ca89bc2723"
+    },
+    {
+      "path": "backend/app/attackpilot/misc/ast.js",
+      "bytes": 2832,
+      "sha256": "c6ddc3743a1cdd2c897b5c21129fcf4c288d869cca860aa67fb8be5375c204c4"
+    },
+    {
+      "path": "backend/app/attackpilot/misc/metadata.json",
+      "bytes": 29344,
+      "sha256": "1254fc94ede939c65cca6eb1371e0f40904fd66159359d558832a442441c9b72"
+    },
+    {
+      "path": "backend/app/attackpilot/misc/phalcon_tracer.js",
+      "bytes": 8225,
+      "sha256": "0ff613aae0d8249e47d048c3bcf23e60b65c419c515050f41f58933ebfc23e1e"
+    },
+    {
+      "path": "backend/app/attackpilot/misc/solcjs.js",
+      "bytes": 801,
+      "sha256": "822585f2528db8703fa8b34098a485cc69519d517888c6fe770f8a09c8ca42df"
+    },
+    {
+      "path": "backend/app/attackpilot/misc/tracer.js",
+      "bytes": 1152,
+      "sha256": "e8a7285bea098daacd4c58ab2a630fd04f45a721205d805bd2010c53cd2fedf3"
+    },
+    {
+      "path": "backend/app/attackpilot/model_history.py",
+      "bytes": 1561,
+      "sha256": "c9c60457736c07fa21f7f06724f19b8a5abaa6355810bb09eeb570ffed086708"
+    },
+    {
+      "path": "backend/app/attackpilot/package-lock.json",
+      "bytes": 320296,
+      "sha256": "9f323477d9910b8840d77f5d10e7b9488fa2954ffeda04ed4b30ba3662b5b5aa"
+    },
+    {
+      "path": "backend/app/attackpilot/package.json",
+      "bytes": 3524,
+      "sha256": "57419ec63c83f2acc6b7836decdb8d08bdef21a1a36f8b3147c75bf9a6d0e4d4"
+    },
+    {
+      "path": "backend/app/attackpilot/prepare.py",
+      "bytes": 16299,
+      "sha256": "f3cd71fc1c5318bfc330361b325a6b0b93921f9c66ab57b67b26307c46cf5589"
+    },
+    {
+      "path": "backend/app/attackpilot/privacy.py",
+      "bytes": 826,
+      "sha256": "bcbad7b4c3d45c9d0a76eaee45f06e6918c4f9c9bad00be232d812836b224084"
+    },
+    {
+      "path": "backend/app/attackpilot/process/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/attackpilot/process/analyze.py",
+      "bytes": 33666,
+      "sha256": "32529b1a8f4755d61b344133dd15fc701523a3520a403464c1eae1b5a050c524"
+    },
+    {
+      "path": "backend/app/attackpilot/process/fund_graph.py",
+      "bytes": 9355,
+      "sha256": "0f33c5fa283935d47faf95a5195d0da8402b1d54ecbc5f2a1359220734bbb278"
+    },
+    {
+      "path": "backend/app/attackpilot/process/pyg.py",
+      "bytes": 13070,
+      "sha256": "403817b47f8576f81f026382d2f02bb509774e4c5949398bf86b42a0eeed2e38"
+    },
+    {
+      "path": "backend/app/attackpilot/process/trace/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/attackpilot/process/trace/debug_simulator.py",
+      "bytes": 4035,
+      "sha256": "fdfec9676c09f8134da3f3dad68ad0512bcfe2d41a5664bb68ea864315a6534e"
+    },
+    {
+      "path": "backend/app/attackpilot/process/trace/trace.py",
+      "bytes": 6784,
+      "sha256": "e79f1b77b4b02d105490c58306a7c2955e2f7455b588dfa0fb5e0d653dbe340c"
+    },
+    {
+      "path": "backend/app/attackpilot/prompt/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/attackpilot/prompt/bug_summary_prompt.py",
+      "bytes": 3608,
+      "sha256": "8b3ce87c90c1cfd279180e29213ca6abd8a2877c1a372b3c75f8c9dee019351d"
+    },
+    {
+      "path": "backend/app/attackpilot/prompt/filter_prompt.py",
+      "bytes": 5162,
+      "sha256": "39a94bd0998f15949301099ad5f16ee3aa19fca6bd2a72ed293ede1fe67dd971"
+    },
+    {
+      "path": "backend/app/attackpilot/prompt/fix_prompt.py",
+      "bytes": 18670,
+      "sha256": "aba7affed649c4418104c019b006652871b6acf7686bcf16c28a1018368f997c"
+    },
+    {
+      "path": "backend/app/attackpilot/prompt/global_memory_prompt.py",
+      "bytes": 10432,
+      "sha256": "e7cfde2b7c3e9970518d808e153471f5e8eb1078304a229bb09e35b6efcce6b9"
+    },
+    {
+      "path": "backend/app/attackpilot/prompt/task_prompt.py",
+      "bytes": 9736,
+      "sha256": "76e7e561c50b615651f41a05db1b11dea8c81b5fccd04be574cc964246ee17d2"
+    },
+    {
+      "path": "backend/app/attackpilot/prompt/trace_debug_prompt.py",
+      "bytes": 34918,
+      "sha256": "4abc70c407f32f9eea25c4e0209ae6389fa27945bc205683dba9ed72f1bdf10e"
+    },
+    {
+      "path": "backend/app/attackpilot/prompt/tx_judge_prompt.py",
+      "bytes": 7443,
+      "sha256": "a699ed1ca9f11468048025b5f3f5f53bd64d907bf156b1b3ae876e97b8b39379"
+    },
+    {
+      "path": "backend/app/attackpilot/prompt/tx_role_analyze_prompt.py",
+      "bytes": 6777,
+      "sha256": "603e68a1d7ec21b9d1404e75e6c8dcb313417b3dbc875227ba58250e6ea23986"
+    },
+    {
+      "path": "backend/app/attackpilot/prompt/tx_summary_prompt.py",
+      "bytes": 3882,
+      "sha256": "b9ca99aacad1e439b5e1433202f6758d0c32e96cf57dca33b7df908cda369cbf"
+    },
+    {
+      "path": "backend/app/attackpilot/report_translation.py",
+      "bytes": 8441,
+      "sha256": "6937f9891c59d13e5a3407704bb62cd503444da7a43979bec2cccf154b626a88"
+    },
+    {
+      "path": "backend/app/attackpilot/revalidate.py",
+      "bytes": 24104,
+      "sha256": "967422da55e26bc6a5b8d4507c0cc7a8c36758839ee0e59587df357f5505179b"
+    },
+    {
+      "path": "backend/app/attackpilot/schemas.py",
+      "bytes": 3178,
+      "sha256": "aa0365d1dd649d4b3023568a184b71e9e3dfd01fb9c6254718318b3ec339d9e5"
+    },
+    {
+      "path": "backend/app/attackpilot/settings.py",
+      "bytes": 3133,
+      "sha256": "ce934e68acccbd4b89a793b1515dda26c8f27777b8b74245e198a093accdee1b"
+    },
+    {
+      "path": "backend/app/attackpilot/store.py",
+      "bytes": 16538,
+      "sha256": "02857bfa204db443509f1cb9633700535d4c0d165bb0bf9c4d540fd0b030d2e7"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/agent_contracts.py",
+      "bytes": 6405,
+      "sha256": "cfb2d7da04aedb6e2dd088668ff5164432b17be078c8a562e712905f5cb28b41"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/agent_helpers.py",
+      "bytes": 15154,
+      "sha256": "372224aaea65d966b68a942d99a973ecc16754805f3f3421f274eed31e068e5e"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/balance_utils.py",
+      "bytes": 15869,
+      "sha256": "24fde5f580fbbc7bbb721aebb432fa1d299f29cf0e34509391ce17f2c2709dfa"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/bucket.py",
+      "bytes": 1261,
+      "sha256": "0f86e50bf9e23800a14facd3ba6f61fb18e828b8018934e862ccf1b4340f7fad"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/bytecode_transplanter.py",
+      "bytes": 15243,
+      "sha256": "6edb0333eace2ce9df8be521c66509d2da561d4c8b7b69fdc343e73f44a40bb7"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/cache.py",
+      "bytes": 2858,
+      "sha256": "b1241ec0877e7617be5bccd6e3c0bd969fbfed3d30420a655d9112f176832f40"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/chainlink.py",
+      "bytes": 42042,
+      "sha256": "41243d3df52a3cf1a410c8c2a6a97b0ebb3e2ccc650ed3b8b916ba4de97b1e56"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/chainlink_config.py",
+      "bytes": 13311,
+      "sha256": "0ca97c26d49285a965aa79073c9ae9599e2f9aa7b7f7138e07578992ad782354"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/decompile.py",
+      "bytes": 6477,
+      "sha256": "4409a09d884f900a0d63e1fd26cf1e02c89b5715126ab9530634a88194877e7f"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/evm_utils.py",
+      "bytes": 2347,
+      "sha256": "0edc75f6e4d40c8074b679329e2b755df57a443ec1f080851ecc3895bf79eed4"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/graph2text.py",
+      "bytes": 3232,
+      "sha256": "d31346082d774589904cd6d42e60a1b5ad76c1af6e946d2e74cae8cdbe1cf5c0"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/llm.py",
+      "bytes": 1820,
+      "sha256": "86ec8991f046c9f8c5f72bcdd9ec814277895e030609aee7acc08f4139dbfb3f"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/llm_client.py",
+      "bytes": 6802,
+      "sha256": "877c866212f559f4de4f6da3ff7adf6772512641a7c8251fa82b8839f1dab878"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/log.py",
+      "bytes": 3758,
+      "sha256": "424d7371221bb9ca40f49e1fe8abac6574ab79c18da43bf75cd0ddeceb31af15"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/native_profit.py",
+      "bytes": 17828,
+      "sha256": "21cf32105143f946a8f48e49886a2f6d31b8ef18a51f882fca40d1a6551cc194"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/oracle_evidence.py",
+      "bytes": 7152,
+      "sha256": "ef622f513c038726e208090bfee806e2a3e5aba9202f77c048272cce1c35a091"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/patch.py",
+      "bytes": 7438,
+      "sha256": "c04c7d0de3d07fc341fdb280b6c6c488bd50be8822c11ad406a0439f13b6fcdd"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/patch_attribution.py",
+      "bytes": 11768,
+      "sha256": "f8b51c8072baface0d842d7cf48c3a1f63e2555386d8bbea6cc6b5b8c5853437"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/patch_quality_metrics.py",
+      "bytes": 5504,
+      "sha256": "de30dcac06fb3f9d5ba8a66d30476ab0e16fc9c5d62d004cac32ce2cd3585324"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/patch_replay.py",
+      "bytes": 52072,
+      "sha256": "a2ee1b0c79e7b52b0d7f64255869d0532b6902903ad2d9409a09f1bef6d2ebc2"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/price.py",
+      "bytes": 16750,
+      "sha256": "02d886b1abcb84a77e7f363a2b09e67dc8df0206ea32dd31eee292c65a5ce300"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/prompt_evidence.py",
+      "bytes": 1740,
+      "sha256": "b11e35c8dd139115f9565a6f0f5182d8e2b9aa96d0d9ed03fa9f76d3c9ffe376"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/rag_context.py",
+      "bytes": 1705,
+      "sha256": "2e5ec39ea4796bfe4cb5c2702732bb5cc67f05e59a56266b449c2346df4b0d0c"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/replay_validation.py",
+      "bytes": 13716,
+      "sha256": "ef4d3be0a6da4335f0f6c5ad51ec5387d9fe67d93d1568a2353484656060fed9"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/report_evidence.py",
+      "bytes": 22182,
+      "sha256": "0afcc43a74a6b3359d4799d98a49590e5befdc00e614948dc96c29d097dca3f8"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/reverse.py",
+      "bytes": 2102,
+      "sha256": "92c9848ab9aa969372bfd5aa24f296c79af9cb051965c40ec37e3a9cffb0ecd5"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/revert_propagation.py",
+      "bytes": 13945,
+      "sha256": "656344c45043994adb096c90e3db5413efaf6dbc5502377496f547381bb4c95f"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/security_checks.py",
+      "bytes": 39226,
+      "sha256": "fbc1df70675d508b2ddcce3cfc181690345f4d84060e2a543ea3875c56f2c3a4"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/sequence_replay.py",
+      "bytes": 29038,
+      "sha256": "273562995efbf8b3a31c34ca4f6244812450826b98cd0a21f739f4451c218b2e"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/signature.py",
+      "bytes": 2267,
+      "sha256": "4e4db6bb4febebbef9b193f208f83445cd1194224be87c4deb935c9ad9797d5c"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/slot.py",
+      "bytes": 3033,
+      "sha256": "b5b578f52de71a9ca8539857c5db098e7bf3fe38b48913d22ce9156720670929"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/solc.py",
+      "bytes": 17958,
+      "sha256": "6ac850c2236c606bfec2c40c8b1a23c8cb38d153b338d42c02b5f863900eb3b7"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/tmpfile.py",
+      "bytes": 486,
+      "sha256": "4d015cb376c8666842db7394b7aee1ba9764332b9d64b4321e59d63c0e96401e"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/token_utils.py",
+      "bytes": 796,
+      "sha256": "5c3e1ad5b174e8c8366ca83f2b3cc946595999062742f73c0b73eb6a87f9b948"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/tokenization.py",
+      "bytes": 1386,
+      "sha256": "379ab5dd968b401bb90d0bb768caab24dbc70155315a9564ee5e1815653ec82d"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/typed_ast.py",
+      "bytes": 2283,
+      "sha256": "76e35cffb709b3a1931301311611d4b79c6ac04f6ead625dd75cb644cb5b33c5"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/verification.py",
+      "bytes": 54436,
+      "sha256": "915be362a1326ccf968cd5202b426fe10d6aeb2aad961e08c72d3dd3ff7e79f8"
+    },
+    {
+      "path": "backend/app/attackpilot/utils/web3.py",
+      "bytes": 2307,
+      "sha256": "7a31059b47c4b1f79e3871719c13d987ff460fdc741360d85ecdea4d6012726c"
+    },
+    {
+      "path": "backend/app/attackpilot/web/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/attackpilot/web/models.py",
+      "bytes": 5162,
+      "sha256": "5dddb02993fae8453db94e20b739dc463e256c7c2ecc3c1b2bb1f026c66f9ad9"
+    },
+    {
+      "path": "backend/app/attackpilot/web/reference_api.py",
+      "bytes": 62052,
+      "sha256": "a47adbb6dfb121d9fa9809e11d3b67ce2a08870830fd7f48021965cd5152508f"
+    },
+    {
+      "path": "backend/app/attackpilot/web/review_service.py",
+      "bytes": 13463,
+      "sha256": "a3179078c2d090fffd04d9557fe7932c427857a216d566817242a3f6ebdc1f5a"
+    },
+    {
+      "path": "backend/app/attackpilot/web/services/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/attackpilot/web/services/rag_service.py",
+      "bytes": 13749,
+      "sha256": "96a3566d4478860aa3f3c995a939e50cb1cc37eba0912e1bdb34824affcb5586"
+    },
+    {
+      "path": "backend/app/attackpilot/worker.py",
+      "bytes": 2081,
+      "sha256": "a035327c1ee25ea1550ca625f287653e633c0b3c7f37178cce1d8a76beb5b92f"
+    },
+    {
+      "path": "backend/app/attackpilot/workflow.py",
+      "bytes": 43200,
+      "sha256": "3fa927d5c391ec15c95d53726f57e891525a445443f359c57244f9ec4e98479d"
+    },
+    {
+      "path": "backend/app/runtime_paths.py",
+      "bytes": 641,
+      "sha256": "52713351810c68c0d5ab9f81ef4e476cc6a5075c0b8e680848ba9c1b9e24c316"
+    },
+    {
+      "path": "backend/app/schemas_auth.py",
+      "bytes": 776,
+      "sha256": "5fe37c078fb90460615e1c832f31f10d15d830457a888203c5f55070b15786f5"
+    },
+    {
+      "path": "backend/app/schemas_favorites.py",
+      "bytes": 554,
+      "sha256": "78fe7ae8b7ba3974a2b7159734b3170351e0ec2b3bce228b71b54df09b9aaa67"
+    },
+    {
+      "path": "backend/app/services/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/services/account_security_event_service.py",
+      "bytes": 806,
+      "sha256": "cffd53ac8f80785efabc8bf556151df3f301a0562dd48ecaf0ed976a4f06085b"
+    },
+    {
+      "path": "backend/app/services/auth_service.py",
+      "bytes": 18561,
+      "sha256": "d8201a88deac26b61ff794624ca94c983f3f104b71825fe7407cb66e5a9ee183"
+    },
+    {
+      "path": "backend/app/services/csrf_service.py",
+      "bytes": 590,
+      "sha256": "871ff70bc831010f9187c5513dec99a96f704e17ea664d9cebd3560458dc19ab"
+    },
+    {
+      "path": "backend/app/services/llm_config_service.py",
+      "bytes": 1343,
+      "sha256": "f3b1967220ddda82925e98112461a9eef257a87b15e505c405de8e5c5bab60e5"
+    },
+    {
+      "path": "backend/app/services/rate_limit_service.py",
+      "bytes": 6026,
+      "sha256": "e5ef2224b8306ce0440d5b16933b98b8be83d025f0f84cb6d023d10393b0ad7d"
+    },
+    {
+      "path": "backend/app/services/request_body_limit_service.py",
+      "bytes": 1593,
+      "sha256": "8e81f0b181c6335604ec330be9552d0ecc76a88f009c26782ad3f591af18367e"
+    },
+    {
+      "path": "backend/app/services/request_security_service.py",
+      "bytes": 1538,
+      "sha256": "6e7d7d1c75a93289a941a4a1c3e641f9efc42b79a55719d1a229c4802b5d75d0"
+    },
+    {
+      "path": "backend/app/services/task_audit_service.py",
+      "bytes": 12195,
+      "sha256": "1c54f9e4064863cd40c8a52e1f1f121f48fad59d759109e531f5b361c481a9ad"
+    },
+    {
+      "path": "backend/main.py",
+      "bytes": 5573,
+      "sha256": "584ead9db41b6e2b9053a9c5f8b3d8ecc8823382eeab571e84e2f30eb3833090"
+    },
+    {
+      "path": "backend/requirements.txt",
+      "bytes": 444,
+      "sha256": "f10a9555607fdce90382de6869a6fe18a8d0971e7be49abb7dda68ece65df8f9"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 2658,
+      "sha256": "11c5f7a3f2d387c64f97416125eff31d44f7eb89643d6340c5403978d985dc4c"
+    },
+    {
+      "path": "frontend/.env.example",
+      "bytes": 129,
+      "sha256": "a8d7666d69fde8941fd28e4b77521582f1f77611a39e51aa328e326bc93a5b5f"
+    },
+    {
+      "path": "frontend/.gitignore",
+      "bytes": 75,
+      "sha256": "e0c390a5ba7f8a81c106557d432a1cc1677f27e5483bd1e6e9ec4ae853cef63c"
+    },
+    {
+      "path": "frontend/app/attackpilot/briefing/page.tsx",
+      "bytes": 56,
+      "sha256": "cfae1bd27b34bddbd11c22c38321b0cdc12883a00109077cfa038bbe545ef723"
+    },
+    {
+      "path": "frontend/app/attackpilot/knowledge/page.tsx",
+      "bytes": 57,
+      "sha256": "c56cf646d522b128346a496c4db429d7193909578c6cb20244cedc91dfa7f371"
+    },
+    {
+      "path": "frontend/app/attackpilot/layout.tsx",
+      "bytes": 213,
+      "sha256": "9feb364f0ebd3bb6d5b4ff41808795043adb252cfd693403c440ac6b1e2d4e96"
+    },
+    {
+      "path": "frontend/app/attackpilot/learning/page.tsx",
+      "bytes": 130,
+      "sha256": "14a0990c2f0cc21422003a60886f1e36215bf332895cf131791a2f2c8abf3702"
+    },
+    {
+      "path": "frontend/app/attackpilot/page.tsx",
+      "bytes": 137,
+      "sha256": "65a7a129eea33d86533dc5e2009d3955ebe88d4e174f26cb5c37415fdbe4efee"
+    },
+    {
+      "path": "frontend/app/attackpilot/tasks/[taskId]/page.tsx",
+      "bytes": 52,
+      "sha256": "d3e4c0bf537b2a3efb6dcd006a1b190d69c1644492eadfa791cd260c15fd7c75"
+    },
+    {
+      "path": "frontend/app/attackpilot/tasks/page.tsx",
+      "bytes": 53,
+      "sha256": "2ed847474217ca0c71fa5c6e515a60be19d27c5f450a30434fd13330e267472e"
+    },
+    {
+      "path": "frontend/app/error.tsx",
+      "bytes": 394,
+      "sha256": "95210fefd0cb3de8ba9681bf30587469e356d23bcc050fde62e428a7da94e8e3"
+    },
+    {
+      "path": "frontend/app/globals.css",
+      "bytes": 758,
+      "sha256": "a1e7d0f09e7439c0912de7e95f21d3413ba735292751d3666fc321af57122fc6"
+    },
+    {
+      "path": "frontend/app/layout.tsx",
+      "bytes": 466,
+      "sha256": "270b90f37837e934d65e337a11ff15b1a7a02a21d2da9ec9bb660dad4dbef57b"
+    },
+    {
+      "path": "frontend/app/not-found.tsx",
+      "bytes": 201,
+      "sha256": "3a7e2a0b07de3403a3d3328d35a8c829c9f040b6fa88e37edac3637fd3611369"
+    },
+    {
+      "path": "frontend/app/page.tsx",
+      "bytes": 110,
+      "sha256": "f6f64e25aeba541f370cbcbeaf24785e928b2ba07856ec7a5c681f80b91a14f9"
+    },
+    {
+      "path": "frontend/components/attackpilot/attackpilot.css",
+      "bytes": 213865,
+      "sha256": "0860e0e1ae79fe8bf124f8430b6e45248bba2e9d9e4ddc32faa0acd696abcf70"
+    },
+    {
+      "path": "frontend/components/attackpilot/briefing.css",
+      "bytes": 7199,
+      "sha256": "701e505a8a91f92176f1173422ee9b15d3d2f0b61d9bc2b7dfd095269aeb2117"
+    },
+    {
+      "path": "frontend/components/attackpilot/components/AgentConsistencyPanel.tsx",
+      "bytes": 8707,
+      "sha256": "cfaba784843ada0a7af225e785fc5a43dd80a1d5e65e70d812ce17e633c3a89f"
+    },
+    {
+      "path": "frontend/components/attackpilot/components/AgentFileLogs.tsx",
+      "bytes": 5406,
+      "sha256": "c038016b70eb0c99f083de44e1279a966cde6f6c718905b6320f5e90fbefadea"
+    },
+    {
+      "path": "frontend/components/attackpilot/components/AgentInsights.tsx",
+      "bytes": 7488,
+      "sha256": "bf6195d842a2b182d8f456ec7e035186d02eeba97c2b80401fa3c7c2e1a7a0bb"
+    },
+    {
+      "path": "frontend/components/attackpilot/components/AgentMonitorCard.tsx",
+      "bytes": 1978,
+      "sha256": "7888462c970f4c11c6bda7f3743ca28087514fa00ac14cbeba855fad984d2811"
+    },
+    {
+      "path": "frontend/components/attackpilot/components/AgentNavigator.tsx",
+      "bytes": 3899,
+      "sha256": "e1a4d83332b965b062f016b7bb605872096d3318c8b153522d1e233b57f98bca"
+    },
+    {
+      "path": "frontend/components/attackpilot/components/AgentTimeline.tsx",
+      "bytes": 7524,
+      "sha256": "cf8c66af9733758d925a61f1bbbc4c94a1cba7244df7719485e0fffc67d68f7a"
+    },
+    {
+      "path": "frontend/components/attackpilot/components/AnalysisLivePanel.tsx",
+      "bytes": 5402,
+      "sha256": "72e42468841c256492622883460b00f058e0f133b05f027602a60abc0eebe4a9"
+    },
+    {
+      "path": "frontend/components/attackpilot/components/AttackReplayTimeline.tsx",
+      "bytes": 6640,
+      "sha256": "63ff6fd6762b5a495f2d6467ab033025dcaeaf2802ead6da7d7c80153de1917c"
+    },
+    {
+      "path": "frontend/components/attackpilot/components/DappContextButton.tsx",
+      "bytes": 5292,
+      "sha256": "4276263c3d839f4aaffe7cb702bbf90cdf00c7009de396bed25ef1328bb7fc98"
+    },
+    {
+      "path": "frontend/components/attackpilot/components/EvidenceDrawer.tsx",
+      "bytes": 6795,
+      "sha256": "3c662a0681db1e11f58e281dd239259521e6a66c18102aa044f7a71f2bd802ff"
+    },
+    {
+      "path": "frontend/components/attackpilot/components/EvidenceIntelligencePanel.tsx",
+      "bytes": 5089,
+      "sha256": "1db6bd936deea82abe07e1d418ddaedf2ac8e5a4b2219c416fe738beef035889"
+    },
+    {
+      "path": "frontend/components/attackpilot/components/ForensicAssistantDrawer.tsx",
+      "bytes": 11244,
+      "sha256": "130d43952ef8bc489858b4583c6bc29b1d50ceb287f40461b3a315841195536b"
+    },
+    {
+      "path": "frontend/components/attackpilot/components/KeyTransactionCards.tsx",
+      "bytes": 12343,
+      "sha256": "63f997ba04a5ccbd3f8ebcefcb2958070fc236a71244d45d0a82abf8f6196f16"
+    },
+    {
+      "path": "frontend/components/attackpilot/components/LearningGuidePanel.tsx",
+      "bytes": 9575,
+      "sha256": "00d12d0b9b4540c42d28a64cc83ee7bc70ce8157ed3565f52ae68e64c460c6f9"
+    },
+    {
+      "path": "frontend/components/attackpilot/components/LogDetailDrawer.tsx",
+      "bytes": 4959,
+      "sha256": "5a4929ef10722c26199bff683959e12f1937f71ab7c211149c67c88a5a771813"
+    },
+    {
+      "path": "frontend/components/attackpilot/components/LogStream.tsx",
+      "bytes": 17016,
+      "sha256": "4da9951bf29aee1584be315c5d16c3ba1a2079ef26bea40b104d845b3c840a07"
+    },
+    {
+      "path": "frontend/components/attackpilot/components/MacroAnalysisPanel.tsx",
+      "bytes": 8371,
+      "sha256": "535b719c3226f4f644e3548ceac98e81e07702b36ffd05678547b79564c32438"
+    },
+    {
+      "path": "frontend/components/attackpilot/components/MarkdownRenderer.tsx",
+      "bytes": 513,
+      "sha256": "4659e137b9782c61894129abb56802d998d78283f94951bb72d36d733b20cf3f"
+    },
+    {
+      "path": "frontend/components/attackpilot/components/PatchVerificationPanel.tsx",
+      "bytes": 7784,
+      "sha256": "a4afe0748ca28fb2bf5a0fa8c45b9e43707933a03594fb2842d8629be32edf91"
+    },
+    {
+      "path": "frontend/components/attackpilot/components/PriceEvidencePanel.tsx",
+      "bytes": 12703,
+      "sha256": "701b1ebbbeb0531445e6b69960211d353c48a501a2fe31b230a5376ced59d0f0"
+    },
+    {
+      "path": "frontend/components/attackpilot/components/RagKnowledgePanel.tsx",
+      "bytes": 7987,
+      "sha256": "66ebf1a748c43fd36b90472cf24aa4d585d7b15e02ca33e15f39dd661446f283"
+    },
+    {
+      "path": "frontend/components/attackpilot/components/StructuredReport.tsx",
+      "bytes": 17594,
+      "sha256": "41946af9781b79aa614b46cefa03976d843a6c700160c0b54979de5a4738371a"
+    },
+    {
+      "path": "frontend/components/attackpilot/constants/agents.ts",
+      "bytes": 229,
+      "sha256": "187b3843cd179c2adff52ef4bb738e836bfce59128cd3b0cfc24e413c87760cf"
+    },
+    {
+      "path": "frontend/components/attackpilot/context.tsx",
+      "bytes": 263,
+      "sha256": "1cb0cb7780d0e3ca179e771f951d0c20769ede8082d2fda41b753ee00ddae9d2"
+    },
+    {
+      "path": "frontend/components/attackpilot/data/cases.json",
+      "bytes": 201779,
+      "sha256": "516fa1566bacd8f1d9a39b60f12db214523048952b5bb50651ffcd0681728870"
+    },
+    {
+      "path": "frontend/components/attackpilot/detail.css",
+      "bytes": 13946,
+      "sha256": "c57c8e4e795eb0de46554a1f9abc9d89df8d5b8168323170d3fd987e07ab9b3b"
+    },
+    {
+      "path": "frontend/components/attackpilot/knowledge.css",
+      "bytes": 13070,
+      "sha256": "c3d4593304151c5eb4c13129c84d7b21d58d82fe4bb45c4d203051b77d4cfb3d"
+    },
+    {
+      "path": "frontend/components/attackpilot/log-detail.css",
+      "bytes": 5051,
+      "sha256": "30b3aa1ead2a61d6e3310c2d9daabc0d9a417ab2deee24a1b03b8ba12c161458"
+    },
+    {
+      "path": "frontend/components/attackpilot/logs.css",
+      "bytes": 5283,
+      "sha256": "68a76fce2d24226e12192ab6d4c2cfb43d2fb1758dcddb38db9eb66a013f8f41"
+    },
+    {
+      "path": "frontend/components/attackpilot/pages/Briefing.tsx",
+      "bytes": 5186,
+      "sha256": "61e2e4359cdbb4479a8ecaed6f2fc38e026dc3a6dd1158178d1d3c7fe83c437c"
+    },
+    {
+      "path": "frontend/components/attackpilot/pages/Dashboard.tsx",
+      "bytes": 29782,
+      "sha256": "cf4b58207b634d36b87b2debfdf518ce87342547f26cb7535107ad602b1f98c6"
+    },
+    {
+      "path": "frontend/components/attackpilot/pages/LandingWarRoom.tsx",
+      "bytes": 42055,
+      "sha256": "3f8faf9b22fc8918e0d636633068cb6ac3410da96cef499af53f64b5fabd65ef"
+    },
+    {
+      "path": "frontend/components/attackpilot/pages/LearningCenter.tsx",
+      "bytes": 17841,
+      "sha256": "6fec79f6340122c99cb42960f255bd68bd204a1b46406a64471f836be739e640"
+    },
+    {
+      "path": "frontend/components/attackpilot/pages/TaskList.tsx",
+      "bytes": 16984,
+      "sha256": "a8f9c3c4f3e8372cb29b842157d160ca8f52de289fa97e188ed1b14483c860dd"
+    },
+    {
+      "path": "frontend/components/attackpilot/pages.css",
+      "bytes": 4015,
+      "sha256": "7ae99cdef604ab8861ccbfd43d78a719ea61e4b49dbb5cf2853629fde2325d46"
+    },
+    {
+      "path": "frontend/components/attackpilot/price-evidence.css",
+      "bytes": 6504,
+      "sha256": "28fb3611f20102e2b797be32a913b00bab864b22e991eba02247b0005cbab9fc"
+    },
+    {
+      "path": "frontend/components/attackpilot/review.css",
+      "bytes": 17452,
+      "sha256": "eb29f8765ac9bde2f683bece813467e9e92b1c018096c060b7b713ecffca4db9"
+    },
+    {
+      "path": "frontend/components/attackpilot/services/TaskEventService.ts",
+      "bytes": 6911,
+      "sha256": "fcb3b1835a71b35d510601b54d4eed08eb5c8aa528683ffa72c686f42560b2dc"
+    },
+    {
+      "path": "frontend/components/attackpilot/services/api.ts",
+      "bytes": 5883,
+      "sha256": "4514c7f3233c7ff871e3aa0de1ca75187aa4646c5bba117e06e069c6579ae25b"
+    },
+    {
+      "path": "frontend/components/attackpilot/services/navigation.ts",
+      "bytes": 376,
+      "sha256": "eb83c99f7b9e563fac505ebd60c29e6e7e3d2591b5a2192fb018767c227faea7"
+    },
+    {
+      "path": "frontend/components/attackpilot/tasks.css",
+      "bytes": 5785,
+      "sha256": "c97ce92875ff36fbe09aa8cfa083692af2dcdfcc41ef186c7eca0fec608e701b"
+    },
+    {
+      "path": "frontend/components/attackpilot/types/index.ts",
+      "bytes": 12693,
+      "sha256": "4cdadc85cdc706971fff823a3ff1653ba4bd54bac37fcda9073b07e8bb12e91d"
+    },
+    {
+      "path": "frontend/components/attackpilot/utils/agentConsistency.ts",
+      "bytes": 17268,
+      "sha256": "3d7c79bbd85dc1cbda1da7282d2ce96f2a80fede42dfb8130df4ae5130e9f62a"
+    },
+    {
+      "path": "frontend/components/attackpilot/utils/dappMetadata.ts",
+      "bytes": 838,
+      "sha256": "beb33893f740b54d3f2806beaf6199c73a3c4217324323cf9b1924669e070ce6"
+    },
+    {
+      "path": "frontend/components/attackpilot/utils/evidence.ts",
+      "bytes": 6690,
+      "sha256": "6400f10630ec59ca3439969915138a11a5e4b15fe4e0df3d02e9bafc2d402de0"
+    },
+    {
+      "path": "frontend/components/attackpilot/utils/evidenceScoring.ts",
+      "bytes": 6464,
+      "sha256": "d809d642548c737b74ab5235d3a1e8ac215796e4b45f241b9cda24e61e8869a3"
+    },
+    {
+      "path": "frontend/components/attackpilot/utils/i18n.ts",
+      "bytes": 3383,
+      "sha256": "48af2c8ca81bce0e95a9d9d0db79de2f725ee875eaf9b105d2f9b929dc11a042"
+    },
+    {
+      "path": "frontend/components/attackpilot/utils/presentation.ts",
+      "bytes": 2480,
+      "sha256": "7d5d25c9e6e3c67a08bfbd04631a9b74b561384c9b1d00891a368be7073e3cf6"
+    },
+    {
+      "path": "frontend/components/attackpilot/utils/priceEvidence.ts",
+      "bytes": 23119,
+      "sha256": "ef5f3bcbc5a2fd6bc04397a4e24b12b758d2cf5db91004732c72587ee27ba78b"
+    },
+    {
+      "path": "frontend/components/attackpilot/utils/reportNarrative.ts",
+      "bytes": 4243,
+      "sha256": "2f5e60eb498c0d94425d5ed41ebe1a4144741146f6713cecac4b6d466f5d4448"
+    },
+    {
+      "path": "frontend/components/attackpilot/utils/requestPayloads.ts",
+      "bytes": 3476,
+      "sha256": "40c72be8ca629bf2636bc1dbaba00f47bcf093f43878d8a4064a465ba6e63b7f"
+    },
+    {
+      "path": "frontend/components/attackpilot/utils/verification.ts",
+      "bytes": 47984,
+      "sha256": "9c418499c6308e2cc36b7d4bddfa09c054d6450b2639591844a0ad3f99046f16"
+    },
+    {
+      "path": "frontend/components/attackpilot/workbench.tsx",
+      "bytes": 6975,
+      "sha256": "6476202f91bed6733aa87734f9407fd86affc77f2705d8e94ff48876b7e9bed0"
+    },
+    {
+      "path": "frontend/components/attackpilot-shell.tsx",
+      "bytes": 3069,
+      "sha256": "0833d13cd837dc617a477ba19d61ed2fa65c12ea51d6428bfa176ebd9bf25053"
+    },
+    {
+      "path": "frontend/components/auth-dialog.tsx",
+      "bytes": 3688,
+      "sha256": "3e945c7de40af6c21b200453dbca24c94fdac520ba47df528f9205cd0d14240c"
+    },
+    {
+      "path": "frontend/eslint.config.mjs",
+      "bytes": 465,
+      "sha256": "870f1adccecf3051cbcd9fd307cef51d7633cf510979c181a81f4b1797273493"
+    },
+    {
+      "path": "frontend/lib/api.ts",
+      "bytes": 3515,
+      "sha256": "b7bad39eacbc73ed387b134a4f63d3b97b3c4d26e0d11ee9783de8f785022efb"
+    },
+    {
+      "path": "frontend/lib/browser-storage.ts",
+      "bytes": 1929,
+      "sha256": "5b13e718e7a31fa363582e105dfccb705f91285bdf53a87ef6979ed88e9bfb89"
+    },
+    {
+      "path": "frontend/next-env.d.ts",
+      "bytes": 141,
+      "sha256": "da8f72cac2055dc3aa2f241d2b1a678207c766252057d1e3a54182312abbc1ee"
+    },
+    {
+      "path": "frontend/next.config.ts",
+      "bytes": 1109,
+      "sha256": "970c11aa416d636ca36b2118d9ded3b93b857647fec979388a0e29449bfe774d"
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "bytes": 306218,
+      "sha256": "97331fb6d069bb23ef9210affede65d9fd3f2617bbfb9c765e782b3ca7c4228a"
+    },
+    {
+      "path": "frontend/package.json",
+      "bytes": 802,
+      "sha256": "1c17126c71a6d6d67887bd64e45b9788d841f76397884645884e78fdad18e8a0"
+    },
+    {
+      "path": "frontend/public/attackpilot/riskpilot_logo.png",
+      "bytes": 926922,
+      "sha256": "cd1e3d0aebe0a96eab698dd68f9fc38776599acf6b154d7f87f4f926faaec828"
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "bytes": 715,
+      "sha256": "a4030e6bfc9032eb2b731897ed0e3e30d6185061805990bf8a73a82bf9f206f8"
+    },
+    {
+      "path": "scripts/package.py",
+      "bytes": 3928,
+      "sha256": "a436f60105661365a096807e0b264d01aa6303e434ab60d67c9039eb96053554"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+:root { color-scheme: light; }
+html, body { min-height: 100%; margin: 0; padding: 0; }
+body { background: #f8fafc; color: #0f172a; font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif; }
+* { box-sizing: border-box; }
+button, input, textarea, select { font: inherit; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; }
+::selection { background: rgba(37, 99, 235, .18); }
+:focus-visible { outline: 3px solid rgba(37, 99, 235, .45); outline-offset: 3px; }
+.attackpilot-root { min-height: 100vh; }
+.ap-auth-connection-alert { position: fixed; bottom: 20px; left: 20px; right: 20px; z-index: 1050; max-width: 640px; }
+.ap-route-message { max-width: 640px; margin: 16vh auto; padding: 32px; }
+.ap-route-message a { color: #2563eb; }
